@@ -4,7 +4,7 @@ use strict;
 use Acme::Current;
 
 use vars qw($VERSION $YESTERDAY);
-$VERSION = '0.01';
+$VERSION = '0.02';
 $YESTERDAY = sprintf "the day before %04d/%02d/%02d",
   $Acme::Current::YEAR,
   $Acme::Current::MONTH,
